@@ -8,7 +8,7 @@
  * @type {{ API_BASE_URL: string, REQUEST_TIMEOUT: number }}
  */
 const APP_CONFIG = {
-  API_BASE_URL: window.CALC_API_BASE_URL || 'http://127.0.0.1:5000',
+  API_BASE_URL: window.CALC_API_BASE_URL || 'https://calculator-backend-o3iy.onrender.com',
   REQUEST_TIMEOUT: 8000,
 };
 
